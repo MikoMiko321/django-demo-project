@@ -1,0 +1,17 @@
+[project]
+name = "django-demo-project"
+version = "0.1.0"
+description = "My django demo project for internship"
+authors = [
+    {name = "Mikhail Barinov",email = "mbarinov@yandex.ru"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "django (==5.0.6)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
